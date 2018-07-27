@@ -95,11 +95,11 @@ return $GLOBALS['factura_sets']['distritos'][$key];
 
 // lista de unidades posibles
 function unidades_array(){
-    return array("Sp"=>"Servicios Profesionales","m"=>"Metro","kg"=>"Kilogramo","s"=>"Segundo","A"=>"Ampere","K"=>"Kelvin","mol"=>"Mol","cd"=>"Candela","m²"=>"Metro Cuadrado","m³"=>"Metro Cúbico","m/s"=>"Metro por segundo","m/s²"=>"Metro por segundo cuadrado","1/m"=>"1 por metro","kg/m³"=>"kilogramo por metro cúbico","A/m²"=>"ampere por metro cuadrado","A/m"=>"ampere por metro","mol/m³"=>"mol por metro cúbico","cd/m²"=>"candela por metro cuadrado","1"=>"uno (indice de refracción)","rad"=>"Radián"
-    ,"sr"=>"Estereorradián","Hz"=>"hertz","N"=>"Newton","Pa"=>"Pascal","J"=>"Joule","W"=>"Watt","C"=>"coulomb","V"=>"Volt","F"=>"Farad","?"=>"Ohm","S"=>"Siemens","Wb"=>"Weber","T"=>"Tesla","H"=>"Henry","°C"=>"Grado Celsius","lm"=>"Lumen","lx"=>"Lux","Bq"=>"Becquerel","Gy"=>"Gray","Sv"=>"Sievert"
-    ,"kat"=>"Katal","Pa·s"=>"Pascal segundo","N·m"=>"Newton metro","N/m"=>"Newton por metro","rad/s"=>"Radián por segundo","rad/s²"=>"Radián por segundo cuadrado","W/m²"=>"Watt por metro cuadrado","J/K"=>"Joule por kelvin","J/(kg·K)"=>"Joule por kilogramo kelvin","J/kg"=>"Joule por kilogramo","W/(m·K)"=>"Watt por metro kevin","J/m³"=>"Joule por metro cúbico","V/m"=>"Volt por metro","C/m³"=>"Coulomb por metro cúbico","C/m²"=>"Coulomb por metro cuadrado","F/m"=>"Farad por metro","H/m"=>"Henry por metro","J/mol"=>"Joule por mol","J/(mol·K)"=>"Joule por mol kelvin","C/kg"=>"Coulomb por kilogramo"
-    ,"Gy/s"=>"Gray por segundo","W/sr"=>"Watt por estereorradián","W/(m²·sr)"=>"Watt por metro cuadrado estereorradián","kat/m³"=>"Katal por metro cúbico","min"=>"Minuto","h"=>"Hora","d"=>"Día","º"=>"Grado","'"=>"Minuto","''"=>"Segundo","L"=>"Litro","t"=>"Tonelada","Np"=>"Neper","B"=>"Bel","eV"=>"Electronvolt","u"=>"Unidad de masa atómica unificada","ua"=>"Unidad astronómica","Unid"=>"Unidad","Gal"=>"Galón","g"=>"Gramo"
-    ,"Km"=>"Kilometro","ln"=>"Pulgada","cm"=>"Centímetro","mL"=>"Mililitro","mm"=>"Milímetro","Oz"=>"Onzas");
+    return array("Sp"=>"Servicios Profesionales","m"=>"Metro","kg"=>"Kilogramo","s"=>"Segundo","A"=>"Ampere","K"=>"Kelvin","mol"=>"Mol","cd"=>"Candela","mÂ²"=>"Metro Cuadrado","mÂ³"=>"Metro CÃºbico","m/s"=>"Metro por segundo","m/sÂ²"=>"Metro por segundo cuadrado","1/m"=>"1 por metro","kg/mÂ³"=>"kilogramo por metro cÃºbico","A/mÂ²"=>"ampere por metro cuadrado","A/m"=>"ampere por metro","mol/mÂ³"=>"mol por metro cÃºbico","cd/mÂ²"=>"candela por metro cuadrado","1"=>"uno (indice de refracciÃ³n)","rad"=>"RadiÃ¡n"
+    ,"sr"=>"EstereorradiÃ¡n","Hz"=>"hertz","N"=>"Newton","Pa"=>"Pascal","J"=>"Joule","W"=>"Watt","C"=>"coulomb","V"=>"Volt","F"=>"Farad","?"=>"Ohm","S"=>"Siemens","Wb"=>"Weber","T"=>"Tesla","H"=>"Henry","Â°C"=>"Grado Celsius","lm"=>"Lumen","lx"=>"Lux","Bq"=>"Becquerel","Gy"=>"Gray","Sv"=>"Sievert"
+    ,"kat"=>"Katal","PaÂ·s"=>"Pascal segundo","NÂ·m"=>"Newton metro","N/m"=>"Newton por metro","rad/s"=>"RadiÃ¡n por segundo","rad/sÂ²"=>"RadiÃ¡n por segundo cuadrado","W/mÂ²"=>"Watt por metro cuadrado","J/K"=>"Joule por kelvin","J/(kgÂ·K)"=>"Joule por kilogramo kelvin","J/kg"=>"Joule por kilogramo","W/(mÂ·K)"=>"Watt por metro kevin","J/mÂ³"=>"Joule por metro cÃºbico","V/m"=>"Volt por metro","C/mÂ³"=>"Coulomb por metro cÃºbico","C/mÂ²"=>"Coulomb por metro cuadrado","F/m"=>"Farad por metro","H/m"=>"Henry por metro","J/mol"=>"Joule por mol","J/(molÂ·K)"=>"Joule por mol kelvin","C/kg"=>"Coulomb por kilogramo"
+    ,"Gy/s"=>"Gray por segundo","W/sr"=>"Watt por estereorradiÃ¡n","W/(mÂ²Â·sr)"=>"Watt por metro cuadrado estereorradiÃ¡n","kat/mÂ³"=>"Katal por metro cÃºbico","min"=>"Minuto","h"=>"Hora","d"=>"DÃ­a","Âº"=>"Grado","'"=>"Minuto","''"=>"Segundo","L"=>"Litro","t"=>"Tonelada","Np"=>"Neper","B"=>"Bel","eV"=>"Electronvolt","u"=>"Unidad de masa atÃ³mica unificada","ua"=>"Unidad astronÃ³mica","Unid"=>"Unidad","Gal"=>"GalÃ³n","g"=>"Gramo"
+    ,"Km"=>"Kilometro","ln"=>"Pulgada","cm"=>"CentÃ­metro","mL"=>"Mililitro","mm"=>"MilÃ­metro","Oz"=>"Onzas");
 }
 
 //lista de identificadores posibles
@@ -301,8 +301,8 @@ $email = parse_ini_file($dir['email_dir']);
 $numeroConsecutivo = $xml_array['NumeroConsecutivo'];
 $emisorNombreComercial = get_elem($xml_array,get_elem($xml_array,'','Emisor','Nombre'),'Emisor','NombreComercial');
 $emisorNombre = get_elem($xml_array,'','Emisor','Nombre');
-$subject = "Factura Electrónica: N° $numeroConsecutivo del Emisor: $emisorNombreComercial";
-$body = "Factura Electronica N° $numeroConsecutivo
+$subject = "Factura ElectrÃ³nica: NÂ° $numeroConsecutivo del Emisor: $emisorNombreComercial";
+$body = "Factura Electronica NÂ° $numeroConsecutivo
 
 Emitida por: $emisorNombre
 Nombre Comercial: $emisorNombreComercial
@@ -314,6 +314,8 @@ $xml_array['Emisor']['NombreComercial'] = $emisorNombreComercial; //isset($xml_a
 email3Documents($xml_array['Receptor']['CorreoElectronico'],$email,$xml_array,$subject,$body,$bodyHTML,$xml_factura,$xml_response,$pdf_string);    
 }
 
-//envia factura clave,donde esta el xml y xml-response
-emailFactura("50621021800112610049300100001010000011681100011681");
+//ejemplo de como llamar a la funcion envia factura clave,donde esta el xml y xml-response
+// si descomenta esta linea de codigo con solo llamar a este archivo desde el browser recibira en el correo del xml de prueba
+// un correo de prueba
+// emailFactura("50621021800112610049300100001010000011681100011681");
 return;
