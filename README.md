@@ -23,8 +23,10 @@ la configuracion de los directorios de templates,facturas y configuracion del em
 * [dirs]
 *   template_dir = ./template/
 *   facturas_dir = ./Facturas/
-*   email_dir = ../emailconfig/email_config.ini
+*   email_dir = ./email_config.ini
 
+se recomienda guardar en un directorio no accesible desde el browser las claves de configuracion de correo (eamil_config.ini)
+*   email_dir = ../emailconfig/email_config.ini
 ----------------------------------------------
 
 las dependecias de este proyecto estan en composer
