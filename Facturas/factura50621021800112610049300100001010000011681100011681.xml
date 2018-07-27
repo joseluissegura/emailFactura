@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><FacturaElectronica xmlns="https://tribunet.hacienda.go.cr/docs/esquemas/2017/v4.2/facturaElectronica">
+  <Clave>50621021800112610049300100001010000011681100011681</Clave>
+  <NumeroConsecutivo>00100001010000011681</NumeroConsecutivo>
+  <FechaEmision>2018-06-22T03:15:08Z</FechaEmision>
+  <Emisor>
+    <Nombre>EMPRESA DE COSTA RICA</Nombre>
+    <Identificacion>
+      <Tipo>02</Tipo>
+      <Numero>148400015023</Numero>
+    </Identificacion>
+    <NombreComercial>EMPRESA DE COSTA RICA</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>02</Canton>
+      <Distrito>03</Distrito>
+      <OtrasSenas>100 farmacia foo</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>586</CodigoPais>
+      <NumTelefono>98456219</NumTelefono>
+    </Telefono>
+    <Fax>
+      <CodigoPais>586</CodigoPais>
+      <NumTelefono>98456219</NumTelefono>
+    </Fax>
+    <CorreoElectronico>test@gmail.com</CorreoElectronico>
+  </Emisor>
+  <Receptor>
+    <Nombre>CLIENTE CONTADO</Nombre>
+    <Identificacion>
+      <Tipo>01</Tipo>
+      <Numero>107210560</Numero>
+    </Identificacion>
+    <NombreComercial>CLIENTE CONTADO</NombreComercial>
+    <Ubicacion>
+      <Provincia>1</Provincia>
+      <Canton>01</Canton>
+      <Distrito>01</Distrito>
+      <OtrasSenas>100 escuela foobar</OtrasSenas>
+    </Ubicacion>
+    <Telefono>
+      <CodigoPais>506</CodigoPais>
+      <NumTelefono>01234567</NumTelefono>
+    </Telefono>
+    <CorreoElectronico>xxxxxxxxx@gmail.com</CorreoElectronico>
+  </Receptor>
+  <CondicionVenta>01</CondicionVenta>
+  <PlazoCredito></PlazoCredito>
+  <MedioPago>01</MedioPago>
+  <DetalleServicio>
+    <LineaDetalle>
+      <NumeroLinea>1</NumeroLinea>
+      <Cantidad>2.00000</Cantidad>
+      <UnidadMedida>Unid</UnidadMedida>
+      <UnidadMedidaComercial>hr o minimo</UnidadMedidaComercial>
+      <Detalle>9:30 a 10.40</Detalle>
+      <PrecioUnitario>150.00000</PrecioUnitario>
+      <MontoTotal>300.00000</MontoTotal>
+      <SubTotal>300.00000</SubTotal>
+      <Impuesto>
+        <Codigo>01</Codigo>
+        <Tarifa>13.000</Tarifa>
+        <Monto>26.00000</Monto>
+      </Impuesto>
+      <MontoTotalLinea>3260.00000</MontoTotalLinea>
+    </LineaDetalle>
+  </DetalleServicio>
+  <ResumenFactura>
+    <CodigoMoneda>CRC</CodigoMoneda>
+    <TipoCambio>0.00000</TipoCambio>
+    <TotalServGravados>300.00000</TotalServGravados>
+    <TotalServExentos>0.00000</TotalServExentos>
+    <TotalMercanciasGravadas>0.00000</TotalMercanciasGravadas>
+    <TotalMercanciasExentas>0.00000</TotalMercanciasExentas>
+    <TotalGravado>300.00000</TotalGravado>
+    <TotalExento>0.00000</TotalExento>
+    <TotalVenta>300.00000</TotalVenta>
+    <TotalVentaNeta>300.00000</TotalVentaNeta>
+    <TotalImpuesto>26.000000</TotalImpuesto>
+    <TotalComprobante>326.00000</TotalComprobante>
+  </ResumenFactura>
+  <Normativa>
+    <NumeroResolucion>DGT-R-48-2016</NumeroResolucion>
+    <FechaResolucion>20-02-2017 13:22:22</FechaResolucion>
+  </Normativa>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-773b3f19-fb32-81e0-e641-a46f4f20a334"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference Id="Reference-a87536e7-f6a1-0148-11ec-0d77efd1c939" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>eOAOsE4rpNA7GxMd793TuV7TRLqSj3LGewvsF3ohPhk=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-773b3f19-fb32-81e0-e641-a46f4f20a334"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>Rx9zFk7TDVTqQgBB7v8x2UxAsIPT+HQv18ffnJ5e5WA=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-773b3f19-fb32-81e0-e641-a46f4f20a334"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>bDZFjxdwxwOdGr1pTwp2VcKZxwPd8E3fRy3dQ6P1rxI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-773b3f19-fb32-81e0-e641-a46f4f20a334">meWlCQNLdV3Lj+5lFoNBAhfJ7rL9cFhwlt2gjbsD5rNSDnynBskYe+YRzXalMPZTSr4MrwWm9SIJ7BPrExDabQr7FNR3bRFgl0H+vTlxV+GaUwaRrnjQnLZhz/Tni7kuIK5eRknSvKuGlTKdLIJjYQKhb+du/FdPlkCmAYBbyBXQKWPE8mtVy4HfKo6w5SoR5Pv6qGhqqIBJ2BA4iTzrbNnNelBH143vd/ghy1R8ArR/C8irUzurfVNzi8yixvkrabYXnDTiXHl0LYlJo3rO1clS7BlR6CIMyQGGIkNzRYDwqhYzAbz7IbMZTF7bK2N7qZhWYwHOdk3CqNASZihgqw==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-773b3f19-fb32-81e0-e641-a46f4f20a334"><ds:X509Data><ds:X509Certificate>MIIFbDCCA1SgAwIBAgIGAWBGwtHjMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAkNSMSkwJwYDVQQKDCBNSU5JU1RFUklPIERFIEhBQ0lFTkRBIC0gU0FOREJPWDEMMAoGA1UECwwDREdUMSYwJAYDVQQDDB1DQSBQRVJTT05BIEpVUklESUNBIC0gU0FOREJPWDAeFw0xNzEyMTExODA3NDFaFw0xOTEyMTExODA3NDFaMIGyMRkwFwYDVQQFExBDUEotMy0xMDEtNzI1NjU5MQkwBwYDVQQEDAAxKTAnBgNVBCoMIFRFQ0hOT0xPR1kgQ09SRSBTT0NJRURBRCBBTk9OSU1BMQswCQYDVQQGEwJDUjEZMBcGA1UECgwQUEVSU09OQSBKVVJJRElDQTEMMAoGA1UECwwDQ1BKMSkwJwYDVQQDDCBURUNITk9MT0dZIENPUkUgU09DSUVEQUQgQU5PTklNQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKozOAu9meXw288Jwgy87cuheApLXW7Ok7gAsHBYdUjZ6hYVfN0Uegzl/9G/nWQuSIMftsFH61k5UjuERrXzqztmEvdrKs4nMTbFlfoT3yW8UQ1ImcCRHdFDio4iUSKy7P0nScfs8OHcBPuPWlLc+fk+AGquxUtNf/e0qFV0y0XsE/nx4o0ozwaT3s/4yZW4yjOebmSy7FyT3tDg9OIBvOusdprUEnBRgRaaeD2e0qUyQE0sWz8sAXC7uxrw4gg5bpbdAVvOW687z763QBNhrfJmzubrOqILJFAHmGooOOH3FDIEWXmpL4MR8pQZGrl3gmDwRhQVwneAmYwyuA1IYmUCAwEAAaOByjCBxzAfBgNVHSMEGDAWgBSsKEX4L51IXywfAJDrMsWjB1OA4TAdBgNVHQ4EFgQUbmpFDutNDlly+xz6rcSall/S8m4wCwYDVR0PBAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMGMGCCsGAQUFBwEBBFcwVTBTBggrBgEFBQcwAoZHaHR0cHM6Ly9wa2kuY29tcHJvYmFudGVzZWxlY3Ryb25pY29zLmdvLmNyL3N0YWcvaW50ZXJtZWRpYXRlLXBqLXBlbS5jcnQwDQYJKoZIhvcNAQELBQADggIBAJEhjdVqEYWTHTK74m8a217Om1n/sz6hBrdgXoaesz9+ge25rBcwy7ggKIYwK2lZb+NlgEVcEgsUQ02JVPGHV4Iw6sWKis7oKOasWWlOOOE88OTZrDTeZ1Z4FM24HXPPcXBChnLFS1VYCLkAXT5DTWRK7++ka7qM3xx+qdPogxVqPNUNSGN7Zl48XE7EHSuJiuQexwPISMIFBYn668Va1VpiRy7JkU3jzfpO4c2GSPRHFtDyqdlNMGeF2gS+KXnE/mKFNGJesNFhaKjqXSgiKUR74ulA0uUJaS8va0e95LdpnN6G3HjUofXNxnsWFa/T7s3im1n7E5PCCUU7+90AMKTZnMCMs3oQjfVjAuzm3JVUPDFAPqnkaHLdCh7MN6PfxOsJZwOjd0zKjJZ8AYvyCbrRc1+HkQ6jqi0U1eNHxpXuKHZq4cTbV8PGZL6b7mSUG+G12hm8DWi6Z7PdHZbRrusnfzqMUxPFSlqXrr5vdDzkxTMuF8tGo01VlHmZkw9QNGDZzq+0V2A0VkZM+VckupRLMY+qkYpozYUhS5SuN4R0NH7z66jZirDgu7UCSbsovnE36S+Qv+36S0teecs1h4byUKxMtjFFCfNzmK7Nm3WWEofDCPFzy+eVWEhrQSW58yRwDrmL4PpFE2zupd+rkJpiwEkZ/iOTye3r9aJAkgjY</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>qjM4C72Z5fDbzwnCDLzty6F4Cktdbs6TuACwcFh1SNnqFhV83RR6DOX/0b+dZC5Igx+2wUfrWTlSO4RGtfOrO2YS92sqzicxNsWV+hPfJbxRDUiZwJEd0UOKjiJRIrLs/SdJx+zw4dwE+49aUtz5+T4Aaq7FS01/97SoVXTLRewT+fHijSjPBpPez/jJlbjKM55uZLLsXJPe0OD04gG866x2mtQScFGBFpp4PZ7SpTJATSxbPywBcLu7GvDiCDlult0BW85brzvPvrdAE2Gt8mbO5us6ogskUAeYaig44fcUMgRZeakvgxHylBkauXeCYPBGFBXCd4CZjDK4DUhiZQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-20612795-4818-beff-41b9-cf98d7b5a144"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-1db7af43-937f-2a83-2311-c71410c58875" Target="#Signature-773b3f19-fb32-81e0-e641-a46f4f20a334"><xades:SignedProperties Id="SignedProperties-Signature-773b3f19-fb32-81e0-e641-a46f4f20a334"><xades:SignedSignatureProperties><xades:SigningTime>2018-06-22T03:15:09Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>KoMV0TQ8b7jruMb8U/QF5cnIpvqVcezT1NAzBDecTs0=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=CA PERSONA JURIDICA - SANDBOX,OU=DGT,O=MINISTERIO DE HACIENDA - SANDBOX,C=CR</ds:X509IssuerName><ds:X509SerialNumber>1513015661027</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://tribunet.hacienda.go.cr/docs/esquemas/2016/v4/Resolucion%20Comprobantes%20Electronicos%20%20DGT-R-48-2016.pdf</xades:Identifier><xades:Description></xades:Description></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>V8lVVNGDCPen6VELRD1Ja8HARFk=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-a87536e7-f6a1-0148-11ec-0d77efd1c939"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FacturaElectronica>
