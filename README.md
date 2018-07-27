@@ -4,8 +4,8 @@ email factura electronica
 envia correo con los 3 documento factura.xml, xml-response y pdf al cliente
 
 Ej en php:
-<?
-emailFactura("50621021800112610049300100001010000011681100011681");
+
+* emailFactura("50621021800112610049300100001010000011681100011681");
 
 ----------------------------------------------
 para configurar el servidor de correos crear un archivo.ini con los siguientes datos
