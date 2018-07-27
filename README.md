@@ -21,3 +21,11 @@ la configuracion de los directorios de templates,facturas y configuracion del em
 *   facturas_dir = ./Facturas/
 *   email_dir = ../emailconfig/email_config.ini
 
+----------------------------------------------
+
+las dependecias de este proyecto estan en composer
+
+----------------------------------------------
+
+se recomienda aumentar el uso de memoria en php.ini para la creacion del pdf
+memory_limit = 256M
